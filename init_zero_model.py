@@ -1,7 +1,7 @@
 from transformers import AutoConfig, AutoModelForMultimodalLM, AutoProcessor
 import torch, json, os
 
-model_id = "Qwen/Qwen3.5-0.8B"
+model_id = "./tokenizer_zh_en_math_code_16k"
 save_path = "./empty_qwen35_custom_init"
 os.makedirs(save_path, exist_ok=True)
 
